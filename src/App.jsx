@@ -17,39 +17,14 @@ function App() {
 
   const experiences = [
     {
-      title: "Senior Full Stack Developer",
-      company: "TechCorp Solutions",
-      period: "2022 - Present",
-      location: "San Francisco, CA",
+      title: "Back-End Developer",
+      company: "NDA",
+      period: "Dec 2024 - Present",
       description: [
         "Led development of microservices architecture serving 1M+ users",
         "Implemented CI/CD pipelines reducing deployment time by 60%",
         "Mentored junior developers and conducted code reviews",
         "Collaborated with cross-functional teams to deliver high-quality products"
-      ]
-    },
-    {
-      title: "Frontend Developer",
-      company: "StartupXYZ",
-      period: "2020 - 2022",
-      location: "Remote",
-      description: [
-        "Built responsive web applications using React and TypeScript",
-        "Optimized application performance achieving 95+ Lighthouse scores",
-        "Integrated third-party APIs and payment systems",
-        "Participated in agile development processes and sprint planning"
-      ]
-    },
-    {
-      title: "Junior Web Developer",
-      company: "Digital Agency Pro",
-      period: "2019 - 2020",
-      location: "New York, NY",
-      description: [
-        "Developed custom WordPress themes and plugins",
-        "Created responsive email templates and landing pages",
-        "Collaborated with designers to implement pixel-perfect UIs",
-        "Maintained and updated client websites"
       ]
     }
   ];
@@ -57,30 +32,24 @@ function App() {
   const education = [
     {
       degree: "Bachelor of Science in Computer Science",
-      institution: "University of California, Berkeley",
-      period: "2015 - 2019",
-      gpa: "3.8/4.0",
-      details: "Relevant Coursework: Data Structures, Algorithms, Software Engineering, Database Systems"
+      institution: "Baranovichi State University",
+      period: "2013 - 2017",
+      gpa: "8.4/10",
+      details: "Computer/Information Technology Administration and Management"
     },
-    {
-      degree: "Full Stack Web Development Bootcamp",
-      institution: "General Assembly",
-      period: "2019",
-      details: "Intensive 12-week program covering modern web development technologies"
-    }
   ];
 
   const skills = [
     { name: "JavaScript/TypeScript", level: "Expert"},
-    { name: "React/Next.js", level: "Expert"},
-    { name: "Node.js/Express", level: "Advanced"},
-    { name: "Python/Django", level: "Advanced"},
-    { name: "SQL/PostgreSQL", level: "Advanced"},
-    { name: "MongoDB", level: "Intermediate"},
-    { name: "AWS/Cloud Services", level: "Intermediate"},
-    { name: "Docker/Kubernetes", level: "Intermediate"},
-    { name: "GraphQL", level: "Intermediate"},
-    { name: "Machine Learning", level: "Beginner"}
+    // { name: "React/Next.js", level: "Expert"},
+    // { name: "Node.js/Express", level: "Advanced"},
+    // { name: "Python/Django", level: "Advanced"},
+    // { name: "SQL/PostgreSQL", level: "Advanced"},
+    // { name: "MongoDB", level: "Intermediate"},
+    // { name: "AWS/Cloud Services", level: "Intermediate"},
+    // { name: "Docker/Kubernetes", level: "Intermediate"},
+    // { name: "GraphQL", level: "Intermediate"},
+    // { name: "Machine Learning", level: "Beginner"}
   ];
 
   return (
@@ -134,7 +103,7 @@ function App() {
           <SkillsGrid skills={skills} />
         </Section>
 
-        <Section title="Key Achievements">
+        {/* <Section title="Key Achievements">
           <div style={{
             backgroundColor: 'white',
             borderRadius: '8px',
@@ -168,7 +137,7 @@ function App() {
               </li>
             </ul>
           </div>
-        </Section>
+        </Section> */}
       </main>
 
       <footer style={{
