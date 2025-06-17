@@ -6,13 +6,13 @@ import { SkillsGrid } from './components/SkillsGrid';
 
 function App() {
   const personalInfo = {
-    name: "Alex Johnson",
-    title: "Full Stack Developer",
-    email: "alex.johnson@email.com",
-    phone: "+1 (555) 123-4567",
-    location: "San Francisco, CA",
-    linkedin: "https://linkedin.com/in/alexjohnson",
-    github: "https://github.com/alexjohnson"
+    name: "Vinahrad Pavel",
+    title: "BACKEND NODE.JS DEVELOPER",
+    email: "pavelvinahrad@gmail.com",
+    phone: "+48516618449",
+    location: "Warsaw, Poland",
+    linkedin: "https://www.linkedin.com/in/pavelvinahrad",
+    github: "https://github.com/vinahradpavel"
   };
 
   const experiences = [
@@ -109,10 +109,11 @@ function App() {
               fontSize: '1.1rem',
               margin: '0'
             }}>
-              Passionate Full Stack Developer with 5+ years of experience building scalable web applications 
-              and leading development teams. Expertise in modern JavaScript frameworks, cloud technologies, 
-              and agile methodologies. Committed to writing clean, maintainable code and delivering 
-              exceptional user experiences. Always eager to learn new technologies and tackle challenging problems.
+              More than 5 years of experience in software development, specializing in building
+              reliable and scalable backend solutions. Focus on quality of code, delivering
+              products on time, and accurately fulfilling client requirements. Ability to work both
+              individually and as part of a team. Committed to continuous learning and staying
+              updated on the latest industry trends and technologies.
             </p>
           </div>
         </Section>
@@ -180,7 +181,7 @@ function App() {
           color: '#bdc3c7',
           margin: '0'
         }}>
-          © 2024 {personalInfo.name}. All rights reserved.
+          © 2025 {personalInfo.name}. All rights reserved.
         </p>
       </footer>
     </div>
