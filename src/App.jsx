@@ -4,8 +4,7 @@ import { Header } from './components/Header';
 import { Section } from './components/Section';
 import { SkillsGrid } from './components/SkillsGrid';
 
-
-const Index = () => {
+function App() {
   const personalInfo = {
     name: "Alex Johnson",
     title: "Full Stack Developer",
@@ -188,4 +187,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default App;
